@@ -1,0 +1,32 @@
+.home-page{
+    background-color: rgba(123, 209, 224, 0.751);
+}
+
+body{
+    font-family: 'arial';
+}
+
+.home-content-div{
+    text-align: center;
+}
+
+.home-content-div p{
+    font-size: large;
+}
+
+.navbar {
+    background-color: rgb(5, 52, 123);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: x-large
+}
+
+.facts-page{
+    background-color: rgba(123, 209, 224, 0.751);
+}
