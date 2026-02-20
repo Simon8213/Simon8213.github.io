@@ -30,3 +30,30 @@ body{
 .facts-page{
     background-color: rgba(123, 209, 224, 0.751);
 }
+
+.facts-content-div{
+    margin-left: 10%
+}
+
+.facts-content-div li{
+    font-size: large
+}
+
+.gallery-content{
+    display: flex;
+    justify-content: center;
+    algn-items: center;
+}
+
+.gallery-content button{
+    border-radius:50%;
+    padding:1%;
+    margin:2%;
+    background-color: rgba(16, 196, 112, 0.587);
+    border-color  rgba(83, 146, 255, 0.516);
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: xxx-large;
+    height: 1%;
+}
