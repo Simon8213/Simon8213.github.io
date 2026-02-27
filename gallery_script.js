@@ -19,5 +19,5 @@ updateImage();
 
 nextButton.addEventListener('click', function() {
     currentImageIndex = (currentImageIndex + 1) % imageGallery.length;
-    
+    updateImage();
 });

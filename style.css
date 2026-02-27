@@ -42,7 +42,7 @@ body{
 .gallery-content{
     display: flex;
     justify-content: center;
-    algn-items: center;
+    align-items: center;
 }
 
 .gallery-content button{
@@ -50,7 +50,7 @@ body{
     padding:1%;
     margin:2%;
     background-color: rgba(16, 196, 112, 0.587);
-    border-color  rgba(83, 146, 255, 0.516);
+    border-color: rgba(83, 146, 255, 0.516);
     border: none;
     text-decoration: none;
     font-weight: bold;
