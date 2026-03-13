@@ -6,7 +6,7 @@ const imageGallery = [
 ];
 
 const imageElement = document.getElementById('gallery-image');
-const prevButton = document.getElementById('pre-btn');
+const prevButton = document.getElementById('prev-btn');
 const nextButton = document.getElementById('next-btn');
 
 let currentImageIndex = 0;
@@ -19,5 +19,10 @@ updateImage();
 
 nextButton.addEventListener('click', function() {
     currentImageIndex = (currentImageIndex + 1) % imageGallery.length;
-    updateImage();
+    updateImage()
+});
+
+prevButton.addEventListener('click', function() {
+    currentImageIndex = (currentImageIndex - 1 +imageGallery.length) % imageGallery.length;
+    updateImage()
 });
